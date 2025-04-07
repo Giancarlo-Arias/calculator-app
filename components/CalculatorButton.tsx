@@ -8,7 +8,7 @@ import { Colors } from '@/constants/Colors';
 
 interface CalculatorButtonProps {
     label: string,
-    color?: string, 
+    color?: string,
     blackText?: boolean, // Opcional y por defecto es false
     doubleSized?: boolean, // Opcional y por defecto es false
     onPress: () => void, // Función que no recibe argumentos y no retorna nada 
